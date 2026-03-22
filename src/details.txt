@@ -1,0 +1,5 @@
+ this is the api key
+029922ff7479fc7d5135aca4402e7333
+
+//this is the api read-access token
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMjk5MjJmZjc0NzlmYzdkNTEzNWFjYTQ0MDJlNzMzMyIsIm5iZiI6MTc3NDA5MzYyOS40MTY5OTk4LCJzdWIiOiI2OWJlODUzZGYwMTAzNDgyNmI3YmIyYjciLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.iXvsX2vNMz8hsanz6iYfDkMzCg2UtbhAKtGkNzk4cKw
