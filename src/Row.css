@@ -1,0 +1,39 @@
+.row{
+    margin-left: 20px;
+}
+.row__poster{
+    width :100%;
+    object-fit:contain;
+    /*maintains aspect ratio and keep the entire image visible without getting cut , even if that leaves empty space*/
+    max-height: 100px;
+    transition : transform 450ms;
+    /*if you ever change size then take half second making it look smoother*/
+    margin-right:10px;
+    /*instead of using , the inbuilt methods , of flex , just space them using margin when the situation demands it */
+}
+.row__posters::-webkit-scrollbar{
+    display:none;
+    /*this is basically telling the entire webpage to keep the functionality of the scroll bar but remove it visually */
+}
+.row__posters{
+    display:flex;
+    overflow-y:hidden;
+    overflow-x: scroll;
+    padding:20px;
+    /*with the scroll bar , when the image grows when hovered , it gets a little cropped , to avoid that add some padding so that we can the image completely even after it grows*/
+}
+
+.row__poster:hover {
+    transform: scale(1.08);
+    /*slighty grows bigger when the cursor is pointed at it , along with transform this makes a great transition feature.*/
+
+}
+
+.row__posterLarge{
+    max-height:250px;
+}
+
+.row__posterLarge:hover{
+    transform:scale(1.09);
+    /*it gets a bigger increase*/
+}
